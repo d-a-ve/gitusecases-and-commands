@@ -41,6 +41,8 @@ Get the index number for the stash from `git stash list`. Then use one of the tw
 
 > The difference between the two methods is that `git stash pop` schedules the stash for deletion after recovering it, and `git stash apply` keeps the reference even after recovering it.
 
+## Save a stash by adding a name to the stash
+Use `git stash -m <message>`. The `<message>` must be in quotes, such as `git stash -m "new_feature_change`.
 
 ## Revert to a previous commit
 
